@@ -3,9 +3,9 @@
 #include <set>
 #include <stdexcept>
 #include <gtest/gtest.h>
-#include <njr/algebra/finite_fields/finite_fields.hpp>
+#include <algebra/finite_fields/finite_fields.hpp>
 
-using namespace njr::algebra;
+using namespace algebra;
 
 template<class A, class B>
 concept CanAdd = requires(const A& a, const B& b) { a + b; };

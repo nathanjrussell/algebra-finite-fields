@@ -3,10 +3,10 @@
 #include <cstddef>
 #include <cstdint>
 #include <stdexcept>
-#include <njr/algebra/finite_fields/prime_field.hpp>
-#include <njr/algebra/polynomials/polynomial.hpp>
+#include <algebra/finite_fields/prime_field.hpp>
+#include <algebra/polynomials/polynomial.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<std::uint32_t P>
 Polynomial<PrimeFieldElement<P>> next_polynomial(Polynomial<PrimeFieldElement<P>> value) {

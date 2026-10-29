@@ -7,9 +7,9 @@
 #include <ostream>
 #include <stdexcept>
 #include <utility>
-#include <njr/algebra/finite_fields/modulus.hpp>
+#include <algebra/finite_fields/modulus.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<std::uint32_t P, std::size_t K = 1, class ModulusPolicy = FirstEnumeratedIrreducible>
 class FiniteField;

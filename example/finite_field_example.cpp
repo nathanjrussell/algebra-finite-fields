@@ -1,7 +1,7 @@
 #include <iostream>
-#include <njr/algebra/finite_fields/finite_fields.hpp>
+#include <algebra/finite_fields/finite_fields.hpp>
 
-using namespace njr::algebra;
+using namespace algebra;
 
 int main() {
     using F = FiniteField<11, 3>;

@@ -1,2 +1,2 @@
-add_executable(njr_algebra_finite_fields_example finite_field_example.cpp)
-target_link_libraries(njr_algebra_finite_fields_example PRIVATE njr::algebra_finite_fields)
+add_executable(algebra_finite_fields_example finite_field_example.cpp)
+target_link_libraries(algebra_finite_fields_example PRIVATE algebra::finite_fields)

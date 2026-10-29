@@ -3,9 +3,9 @@
 #include <cstddef>
 #include <stdexcept>
 #include <vector>
-#include <njr/algebra/finite_fields/finite_field.hpp>
+#include <algebra/finite_fields/finite_field.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<class Field>
     requires FieldElement<typename Field::Element>

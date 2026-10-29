@@ -3,10 +3,10 @@
 #include <cstdint>
 #include <ostream>
 #include <stdexcept>
-#include <njr/algebra/core/core.hpp>
-#include <njr/algebra/rings/residue_ring.hpp>
+#include <algebra/core/core.hpp>
+#include <algebra/rings/residue_ring.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<class AdditiveGroup>
 class PrimeField;

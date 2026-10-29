@@ -1,17 +1,17 @@
 include(FetchContent)
-if(NOT TARGET njr::algebra_rings)
+if(NOT TARGET algebra::rings)
     FetchContent_Declare(
-        njr_algebra_rings
+        algebra_rings
         GIT_REPOSITORY git@github.com:nathanjrussell/algebra-rings.git
-        GIT_TAG f789306ddf2b9375dd00a92d476082831439f145
+        GIT_TAG 2a11ac8b8ea89d9ccf2ce551a8512dde213fde50
     )
-    FetchContent_MakeAvailable(njr_algebra_rings)
+    FetchContent_MakeAvailable(algebra_rings)
 endif()
-if(NOT TARGET njr::algebra_polynomials)
+if(NOT TARGET algebra::polynomials)
     FetchContent_Declare(
-        njr_algebra_polynomials
+        algebra_polynomials
         GIT_REPOSITORY git@github.com:nathanjrussell/algebra-polynomials.git
-        GIT_TAG 272a257073ead68c4bfc871a1af610cd0ca03281
+        GIT_TAG 068f53f336d9ee9067f4fc419bc1dc6b83f4618f
     )
-    FetchContent_MakeAvailable(njr_algebra_polynomials)
+    FetchContent_MakeAvailable(algebra_polynomials)
 endif()
